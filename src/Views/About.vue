@@ -1,3 +1,3 @@
 <template>
-    tere
+    
 </template>
