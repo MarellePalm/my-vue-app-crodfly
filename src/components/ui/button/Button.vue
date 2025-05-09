@@ -20,8 +20,9 @@ const props = withDefaults(defineProps<Props>(), {
     data-slot="button"
     :as="as"
     :as-child="asChild"
-    :class="cn(buttonVariants({ variant, size }), 'bg-green-500 hover:bg-green-600 font-semibold py-2 px-4 border border-gray-80 rounded shadow-sm px-6 py-5', props.class)"
+    :class="cn(buttonVariants({ variant, size }), props.class)"
   >
     <slot />
   </Primitive>
 </template>
+<!-- class=rounded-xl -->
