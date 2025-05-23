@@ -1,12 +1,14 @@
 <script setup lang="ts">
 import { Button } from '../components/ui/button'
-import  Footer  from '../components/Footer.vue'
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
 </script>
 
 <template>
   <div>
-    dfghjkl
-    <Button class="bg-green-500">Get started</Button>
+    <Button>Click me</Button>
+    <Header/>
+    <Button>Get started</Button>
     <Footer/>
   </div>
 </template>
