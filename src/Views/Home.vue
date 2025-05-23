@@ -5,7 +5,8 @@ import  Footer  from '../components/Footer.vue'
 
 <template>
   <div>
-    <Button>Get started</Button>
+    dfghjkl
+    <Button class="bg-green-500">Get started</Button>
     <Footer/>
   </div>
 </template>
