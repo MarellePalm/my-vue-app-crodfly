@@ -1,3 +1,7 @@
+<script setup lang="ts">
+// No imports needed for now
+</script>
+
 <template>
   <footer class="bg-gray-100 text-gray-700 py-12">
     <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-5 gap-8">
@@ -67,10 +71,14 @@
     <!-- Bottom -->
     <div class="border-t mt-10 pt-6 px-6 max-w-7xl mx-auto flex justify-between items-center text-sm text-gray-500">
       <div class="flex items-center gap-2">
-        <img src="/public/pictures/Logo.png" alt="Crowdfy logo" class="h-6" />
+        <img src="/Logo.png" alt="Crowdfy logo" class="h-6" />
       </div>
       <p>© 2077 Mainnet Design. All rights reserved.</p>
     </div>
   </footer>
 </template>
+
+const _sfc_main = {  }
+import { createCommentVNode as _createCommentVNode, createElementVNode as _createElementVNode, createStaticVNode as _createStaticVNode, openBlock as _openBlock, createElementBlock as _createElementBlock }
+import _imports_0 from '/logo.png'
 
