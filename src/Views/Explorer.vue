@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { Button } from '../components/ui/button'
+import { Button } from '../components/ui/button';
 import  Footer  from '../components/Footer.vue'
 import { ArrowDown, ArrowLeft, ArrowUp, MapPinIcon, } from 'lucide-vue-next';
 import { ListBulletIcon } from '@heroicons/vue/16/solid';
+import ProductCard from '../components/productcard.vue';
+import explorerCard from '../components/explorerCard.vue';
 
 
 </script>
@@ -34,5 +36,13 @@ import { ListBulletIcon } from '@heroicons/vue/16/solid';
         <Button class="border bg-color-white text-color-black "><ListBulletIcon class="w-5 h-5 mr-2"></ListBulletIcon></Button>
         <Button class="border bg-color-white text-color-black"><MapPinIcon class="w-5 h-5 mr-2"></MapPinIcon></Button>
     </div>
+  </div>
+
+  <div> 
+    <explorerCard></explorerCard>
+  </div>
+
+  <div>
+    <ProductCard></ProductCard>
   </div>
 </template>
