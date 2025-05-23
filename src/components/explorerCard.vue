@@ -5,6 +5,7 @@ import { ArrowUpTrayIcon, HeartIcon } from '@heroicons/vue/16/solid';
 import { Gift } from 'lucide-vue-next';
 import Avatar from './ui/avatar/Avatar.vue';
 import AvatarImage from './ui/avatar/AvatarImage.vue';
+import _imports_0 from "/pictures/MsSaint.png";
 
 </script>
 
@@ -21,7 +22,7 @@ import AvatarImage from './ui/avatar/AvatarImage.vue';
             </div>
             <div class="p-2 flex gap-1 ">
                 <Avatar class="w-7 h-7 bg-lime-300 rounded-full overflow-hidden">
-                    <AvatarImage src="/public/pictures/avatarImg.png" ></AvatarImage>
+                    <AvatarImage src="/pictures/avatarImg.png" ></AvatarImage>
                 </Avatar>
                 <p class="text-gray-800"> Oliver Rhye</p>
             </div>

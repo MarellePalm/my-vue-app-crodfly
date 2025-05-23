@@ -5,17 +5,17 @@
         <nav class="flex items-center h-full space-x-6">
           <a href="#" class="flex items-center space-x-2 text-sm px-3 py-1.5 rounded-md transition-colors"
              :class="active === 'gallery' ? 'bg-lime-200 text-white' : 'text-gray-600 hover:bg-lime-200 hover:text-white'">
-            <img src="/layout-grid.png" alt="Gallery" class="h-5 w-5 object-contain" />
+            <img src="/pictures/layout-grid.png" alt="Gallery" class="h-5 w-5 object-contain" />
             <span>Gallery</span>
           </a>
           <a href="#" class="flex items-center space-x-2 text-sm px-3 py-1.5 rounded-md transition-colors"
              :class="active === 'maps' ? 'bg-lime-200 text-white' : 'text-gray-600 hover:bg-lime-200 hover:text-white'">
-            <img src="/map-pin.png" alt="Maps" class="h-5 w-5 object-contain" />
+            <img src="/pictures/map-pin.png" alt="Maps" class="h-5 w-5 object-contain" />
             <span>Maps</span>
           </a>
           <a href="#" class="flex items-center space-x-2 text-sm px-3 py-1.5 rounded-md transition-colors"
              :class="active === 'feed' ? 'bg-lime-200 text-white' : 'text-gray-600 hover:bg-lime-200 hover:text-white'">
-            <img src="/newspaper.png" alt="Feed" class="h-5 w-5 object-contain" />
+            <img src="/pictures/newspaper.png" alt="Feed" class="h-5 w-5 object-contain" />
             <span>Feed</span>
           </a>
 

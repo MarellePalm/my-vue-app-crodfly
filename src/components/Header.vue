@@ -9,7 +9,7 @@
         <!-- Logo -->
         <div class="flex items-center gap-8">
           <a href="/" class="flex items-center">
-            <img src="/Logo.png" alt="Crowdfly" class="h-8 w-auto" />
+            <img src="/pictures/Logo.png" alt="Crowdfly" class="h-8 w-auto" />
           </a>
 
           <!-- Main Navigation -->
@@ -24,13 +24,13 @@
         <!-- Right Side Actions -->
         <div class="flex items-center gap-3">
           <button class="w-12 h-12 flex items-center justify-center bg-gray-50/50 hover:bg-gray-100/50 rounded-2xl transition-colors">
-            <img src="/plus-circle.png" alt="Add" class="h-6 w-6 object-contain opacity-60" />
+            <img src="/pictures/plus-circle.png" alt="Add" class="h-6 w-6 object-contain opacity-60" />
           </button>
           <button class="w-12 h-12 flex items-center justify-center bg-gray-50/50 hover:bg-gray-100/50 rounded-full transition-colors">
-            <img src="/Male_Memojis.png" alt="Profile" class="h-8 w-8 object-cover rounded-full" />
+            <img src="/pictures/Male_Memojis.png" alt="Profile" class="h-8 w-8 object-cover rounded-full" />
           </button>
           <button class="w-12 h-12 flex items-center justify-center bg-gray-50/50 hover:bg-gray-100/50 rounded-2xl transition-colors">
-            <img src="/settings-logo.png" alt="Settings" class="h-6 w-6 object-contain opacity-60" />
+            <img src="/pictures/settings-logo.png" alt="Settings" class="h-6 w-6 object-contain opacity-60" />
           </button>
         </div>
       </div>
