@@ -4,7 +4,14 @@ import  Footer  from '../components/Footer.vue'
 import { ArrowDown, ArrowLeft, ArrowUp, MapPinIcon, } from 'lucide-vue-next';
 import { ListBulletIcon } from '@heroicons/vue/16/solid';
 import ExplorerGrid from '../components/ExplorerGrid.vue';
-
+import {
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationNext,
+  PaginationPrevious,
+} from '../components/ui/pagination/Pagination.vue'
 </script>
 
 <template>
@@ -38,5 +45,26 @@ import ExplorerGrid from '../components/ExplorerGrid.vue';
   <div class="p-5">
     <ExplorerGrid></ExplorerGrid>
     
+  </div>
+  <div>
+     <Pagination v-slot="{ page }" :items-per-page="10" :total="20" :default-page="2">
+    <PaginationContent v-slot="{ items }">
+      <PaginationPrevious />
+
+      <template v-for="(item, index) in items" :key="index">
+        <PaginationItem
+          v-if="item.type === 'page'"
+          :value="item.value"
+          :is-active="item.value === page"
+        >
+          {{ item.value }}
+        </PaginationItem>
+      </template>
+
+      <PaginationEllipsis :index="4" />
+
+      <PaginationNext />
+    </PaginationContent>
+  </Pagination>
   </div>
 </template>

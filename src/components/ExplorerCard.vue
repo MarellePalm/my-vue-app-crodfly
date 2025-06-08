@@ -1,9 +1,15 @@
 <template>
   <div class="rounded-xl shadow bg-white p-4 max-w-sm w-full">
     <img :src="image" class="rounded-xl h-40 w-full object-cover mb-3" />
+    <div class="absolute top-2 left-2 bg-white p-1 rounded-full shadow">
+        <i class="fas fa-heart text-red-500"></i>
+    </div>
 
     <div class="flex items-center space-x-2 mb-1">
-      <img src="https://i.pravatar.cc/40" class="h-6 w-6 rounded-full" />
+      <Avatar class="h-6 w-6 rounded-full">
+         <AvatarImage src="https://i.pravatar.cc/100" />
+      <AvatarFallback>{{ author[0] }}</AvatarFallback>
+      </Avatar>
       <p class="text-sm text-gray-700 font-semibold">{{ author }}</p>
     </div>
 
@@ -30,6 +36,9 @@
 </template>
 
 <script setup lang="ts">
+import Avatar from './ui/avatar/Avatar.vue';
+import AvatarImage from './ui/avatar/AvatarImage.vue';
+import AvatarFallback from './ui/avatar/AvatarFallback.vue';
 defineProps<{
   image: string;
   author: string;
